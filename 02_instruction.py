@@ -18,13 +18,24 @@ def instruction():
         print('''
 
     *** Instructions ***
-    
-    At first step you have to choose the level of difficulty you want to do, 
+
+    At first step you should choose what operator you want to work with
+    (addition, subtraction, multiplication and division).
+     
+    Next have to choose the level of difficulty you want to do, 
     level of difficulty are (Easy, Medium and Hard) 
+
+    After that, you should choose the number of questions you want to do, 
+    for the infinite questions you can write <inf>.
     
-    Next you should choose the number of questions you want to do, 
-    for the infinite questions you can write <legend>.
+    If you wanted to exit the code, just write <done>. 
     
+    At the end you can see your quiz history. If you wanted to see the history
+    write yes and then you can check the history.
+    
+    Get Ready!!
+    see you in the quiz!
+
     Good luck.
         ''')
 
