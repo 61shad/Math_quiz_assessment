@@ -93,14 +93,14 @@ def operator():
 
 # Function to generate a math question based on the chosen level and operation
 def level_choosing():
-    print("""Choose the level of difficulty you want to do:"
-🟢 1.beginner 
-🟡 2.intermediate
-🟠 3.advanced
-🔴 4.expert
-    """)
     # Depending on the level, generate random numbers within specific ranges
     while True:
+        print("""Choose the level of difficulty you want to do:"
+        🟢 1.beginner 
+        🟡 2.intermediate
+        🟠 3.advanced
+        🔴 4.expert
+            """)
         level = input()
         if level == "beginner" or level == "1":
             print("You choose the easy level! Good Luck! 😀")
